@@ -32,7 +32,7 @@
 				"extensions": [
 					".nix"
 				],
-				"configuration": "./nix.configuration.json"
+				"configuration": "./nix.language-configuration.json"
 			}
 		],
 		"grammars": [
