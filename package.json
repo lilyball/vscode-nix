@@ -40,6 +40,14 @@
 				"language": "nix",
 				"scopeName": "source.nix",
 				"path": "./syntaxes/nix.tmLanguage"
+			},
+			{
+				"path": "./syntaxes/codeblock.tmLanguage",
+				"scopeName": "markdown.nix.codeblock",
+				"injectTo": ["text.html.markdown"],
+				"embeddedLanguages": {
+					"meta.embedded.block.nix": "nix"
+				}
 			}
 		]
 	},
